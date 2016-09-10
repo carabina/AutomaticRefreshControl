@@ -1,0 +1,16 @@
+PODS:
+  - AutomaticRefreshControl (0.1.0)
+
+DEPENDENCIES:
+  - AutomaticRefreshControl (from `../`)
+
+EXTERNAL SOURCES:
+  AutomaticRefreshControl:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AutomaticRefreshControl: 7359aa50be3b9e4f9aec6e63ef3b109dffe938b4
+
+PODFILE CHECKSUM: 5b14719c078449c1f743c403d496d409e3c37167
+
+COCOAPODS: 1.0.1

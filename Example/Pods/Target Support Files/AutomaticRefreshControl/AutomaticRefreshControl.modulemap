@@ -1,0 +1,6 @@
+framework module AutomaticRefreshControl {
+  umbrella header "AutomaticRefreshControl-umbrella.h"
+
+  export *
+  module * { export * }
+}
