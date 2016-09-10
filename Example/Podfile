@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'AutomaticRefreshControl_Example' do
+  pod 'AutomaticRefreshControl', :path => '../'
+
+  target 'AutomaticRefreshControl_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
