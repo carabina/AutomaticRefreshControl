@@ -20,13 +20,6 @@ public class AutomaticRefreshControl: UIRefreshControl {
     
     //MARK: - Overrides
     
-    public override func endRefreshing() {
-        // TODO: Determine if this is necessary at all.
-        delay(inSeconds: 0) {
-            super.endRefreshing()
-        }
-    }
-    
     public override func beginRefreshing() {
         guard refreshing == false else { return }
         guard let parentScrollView = parentScrollView else { return }
